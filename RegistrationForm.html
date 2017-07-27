@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--        Our metadata goes here-->
+        <meta charset="utf-8">
+        <title>Register</title>
+    </head>
+    <body>
+<!--        Our Content goes here-->
+        <h1>Register</h1>
+       <form>
+           <div>
+                <label for="FirstName">First Name:  <input id="FisttName" type="text" placeholder="John" required></label>
+                <label for="LastName">Last Name: <input id="LastName" type="text" placeholder="Smith" required></label>
+           </div>
+           <div>
+                <label for="male">Male: <input name="GenderChoice" id="male" type="radio" value="Male"></label>
+                <label for="female">Female: <input name="GenderChoice" id="female" type="radio" value="Female"></label>
+                <label for="other">Other: <input name="GenderChoice" id="other" type="radio" value="Other"></label>
+           </div>
+           
+           <div>
+               <label for="email"> Email: <input id="email" type="email" placeholder="Your Email" required></label>
+                <label for="password"> Pasword: 
+                    <input name="password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+               </label>
+           </div>
+           
+           <div>
+               <label for="Birthday"> Birthday:
+               <select name="month" >
+                   <option>1</option>
+                   <option>2</option>
+                   <option>3</option>
+                   <option>4</option>
+                   <option>5</option>
+                   <option>6</option>
+                   <option>7</option>
+                   <option>8</option>
+                   <option>9</option>
+                   <option>10</option>
+                   <option>11</option>
+                   <option>12</option>
+               </select>
+               <select name="day">
+                   <option>1</option>
+                   <option>1</option>
+                   <option>1</option>
+                   <option>1</option>
+               </select>
+               <select name="year">
+                   <option>1</option>
+                   <option>1</option>
+                   <option>1</option>
+                   <option>1</option>
+               </select>
+                </label>
+           </div>
+           
+           <label for="agree">I agree to to the terms and conditions<input type="checkbox" id="agree"></label>
+           <div>
+                <button>submit</button>
+            </div>
+        </form> 
+    </body>
+</html>

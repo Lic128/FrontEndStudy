@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--        Our metadata goes here-->
+        <meta charset="utf-8">
+        <title>Form Demo</title>
+    </head>
+    <body>
+<!--        Our Content goes here-->
+        <input name="useername" type="text" placeholder="username">
+        <br>
+        <input type="color">
+        <br>
+        <input type="radio">
+        <br>
+        <input name="password" type="password" placeholder="password">
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="date">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="email" placeholder="email">
+        <br>
+        <input type="file">
+        <br>
+        <input type="number">
+        <br>
+        <input type="search">
+        
+        
+        <!-- action -- where the form send data to-->
+        <!-- method -- what HTTP method(get/post) -->
+
+        
+        <div>
+            <form method="get">
+                <label for="email"> Email: </label>
+                <input type="text" name="email" id="email"
+                   placeholder="Email"
+                   size="30px" maxlength="100" required>
+                <label for="password"> Password: </label>
+                <input type="password" name="password"  id="password"
+                   placeholder="passowrd"
+                   size="30px" maxlength="12" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        
+        <div>
+            <form>
+                <label for="dogs">Dogs:</label>
+                <input name="petChoice" id="dogs" type="radio" value="dogs">
+                <label for="cats">Cats:</label>
+                <input name="petChoice" id="cats" type="radio" value="cats">
+                <label></label>
+                <select name="color">
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+                <br>
+                <textarea name="Comments" rows="10" cols="50"> </textarea>
+                <button> Go!</button>
+            </form>
+        </div>
+    </body>
+</html>
