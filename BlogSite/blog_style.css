@@ -1,0 +1,50 @@
+
+body {
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    max-width:700px;
+    width:80%;
+    margin: 0 auto;
+    font-family: Source Sans Pro;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 2.0rem;
+}
+
+p {
+
+}
+
+.quote {
+    border-left:5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+.date {
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.post {
+    
+}
+
+hr{
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr{
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
