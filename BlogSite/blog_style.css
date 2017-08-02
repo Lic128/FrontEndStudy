@@ -39,7 +39,7 @@ hr{
     color: #333;
     text-align: center;
 }
-hr{
+hr:after{
     content: "§";
     display: inline-block;
     position: relative;
