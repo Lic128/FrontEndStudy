@@ -1,19 +1,1 @@
 
-li {
-    border: 2px solid black;
-    margin-top: 3px;
-}
-li:hover{
-    background-color: burlywood;
-}
-li:nth-of-type(even){
-    background-color:aquamarine;
-}
-
-input:checked{
-    background-color: cadetblue;
-}
-
-h1 {
-    
-}

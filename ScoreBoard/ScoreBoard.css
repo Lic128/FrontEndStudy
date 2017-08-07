@@ -1,0 +1,29 @@
+
+.container {
+    background-color:beige;
+    margin: auto;
+    width:50%;
+    padding-left: 10%;
+    padding-right:10%;
+    border: 2px solid pink;
+}
+
+#Score {
+    height: 30%px;
+    background-color: dodgerblue;
+    padding:2px;
+    text-align: center;
+    font-size: 5em;
+    font-family: cursive;
+}
+
+#info {
+    text-align: center;
+}
+
+#board {
+    text-align: center;
+}
+.reached{
+    color:red;
+}
